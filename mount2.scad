@@ -80,9 +80,9 @@ mount2_top();
 
 module arm_lower_left() {
     translate([-130.25, -117.5, 5])cube([20, 75, 15]);
-    translate([-130.25, -107.5, 0])cube([20, 50, 15]);
-    translate([-146, -111.75, 12.5])rotate([0,90,0])cylinder(h=20, r = hinge_radius-0.25,        centered=true);
-    translate([-117.25, -50, 11.5])rotate([0,90,0])cylinder(h=20, r = hinge_radius-0.25,        centered=true);
+    translate([-130.25, -100.5, 0])cube([20, 40, 25]);
+    translate([-146, -111.75, 12.5])rotate([0,90,0])cylinder(h=20, r = hinge_radius-0.25);
+    translate([-117.25, -50, 11.5])rotate([0,90,0])cylinder(h=20, r = hinge_radius-0.25);
 }
 arm_lower_left();
 
@@ -96,9 +96,9 @@ arm_upper_left();
 
 module arm_lower_right() {
     translate([110.25, -117.5, 5])cube([20, 75, 15]);
-    translate([110.25, -107.5, 0])cube([20, 50, 15]);
-    translate([126, -111.75, 12.5])rotate([0,90,0])cylinder(h=20, r = hinge_radius-0.25,        centered=true);
-    translate([117.25-20, -50, 11.5])rotate([0,90,0])cylinder(h=20, r = hinge_radius-0.25,        centered=true);
+    translate([110.25, -100.5, 0])cube([20, 40, 25]);
+    translate([126, -111.75, 12.5])rotate([0,90,0])cylinder(h=20, r = hinge_radius-0.25);
+    translate([117.25-20, -50, 11.5])rotate([0,90,0])cylinder(h=20, r = hinge_radius-0.25);
 }
 arm_lower_right();
 
